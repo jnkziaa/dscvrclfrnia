@@ -1,7 +1,8 @@
 import React from 'react';
 import '../App.css';
-import {Button} from './Button';
+import {Button, TrailerButton} from './Button';
 import './HeroSection.css';
+
 
 function HeroSection() {
     return (
@@ -17,13 +18,13 @@ function HeroSection() {
                 >
                     GET STARTED
                 </Button>
-                <Button
+                <TrailerButton
                     className='btns'
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'
                 >
-                    WATCH TRAILER <i className='far fa-play-circle' />
-                </Button>
+                    WATCH TRAILER <i className='far fa-play-circle'/>
+                </TrailerButton>
             </div>
         </div>
     );
