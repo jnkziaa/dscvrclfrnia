@@ -8,11 +8,11 @@ import YouTube from "react-youtube";
 
 export default function Trailer() {
     const videoOptions = {
-        height: '960',
+        height: '980',
         width: '1920',
         playerVars: {
             autoplay: 1,
-            controls: 0,
+            controls: 1,
             rel: 0,
             showinfo: 0,
             mute: 0,
