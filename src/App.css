@@ -17,28 +17,34 @@
 }
 
 .services {
-  background-image: url('/public/images/img-2.jpg');
+  height: 92.5%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/public/images/img-2.jpg");
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  position: absolute;
   color: #fff;
   font-size: 100px;
 }
 
 .products {
-  background-image: url('/public/images/img-1.jpg');
+  height: 92.5%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/public/images/img-1.jpg");
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  position: absolute;
   color: #fff;
   font-size: 100px;
 }
 
 .sign-up {
-  background-image: url('/public/images/img-8.jpg');
+  height: 92.5%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/public/images/img-8.jpg");
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  position: absolute;
   color: #fff;
   font-size: 100px;
 }
