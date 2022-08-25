@@ -2,6 +2,9 @@ import React, {useEffect, useState} from "react"
 import {Link} from "react-router-dom";
 import {Buttons} from "./Button";
 import "./Navbar.css"
+import 'font-awesome/css/font-awesome.min.css';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faUmbrellaBeach} from '@fortawesome/free-solid-svg-icons'
 
 
 function Navbar(){
@@ -28,7 +31,10 @@ function Navbar(){
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                        DSCVRCLFRNIA   <i className="fab fa-typo3" />
+                        DSCVRCLFRNIA
+                    </Link>
+                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+                        <FontAwesomeIcon icon={faUmbrellaBeach} />
                     </Link>
                     <div className="menu-icon" onClick="{handleClick}">
                         <i className={click ? "fas fa-times": "fas fa-bars"} />

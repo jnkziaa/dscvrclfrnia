@@ -29,16 +29,6 @@
     align-items: center;
 }
 
-.fa-typo3 {
-    font-size: 50px;
-    margin-left: 0.5rem;
-
-}
-
-.fa-tree-palm{
-    margin-left: 0.5rem;
-    font-size: 1.8rem;
-}
 
 .nav-menu {
     display: grid;
