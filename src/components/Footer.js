@@ -1,5 +1,5 @@
 import React from "react";
-import {Button} from "./Button";
+import {Buttons} from "./Button";
 import "./Footer.css";
 import {Link} from "react-router-dom";
 
@@ -16,7 +16,7 @@ function Footer(){
                 <div className="input-areas">
                     <form>
                         <input type="email" name="email" placeholder="Your Email" className="footer-input"/>
-                        <Button buttonStyle="btn--outline">Subscribe</Button>
+                        <Buttons buttonStyle="btn--outline">Subscribe</Buttons>
                     </form>
                 </div>
             </section>

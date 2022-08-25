@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import {Button, TrailerButton} from './Button';
+import {Buttons, TrailerButtons} from './Button';
 import './HeroSection.css';
 
 
@@ -11,20 +11,20 @@ function HeroSection() {
             <h1>California is Waiting</h1>
             <p>What are you waiting for?</p>
             <div className='hero-btns'>
-                <Button
-                    className='btns'
+                <Buttons
+                    className='btn'
                     buttonStyle='btn--outline'
                     buttonSize='btn--large'
                 >
                     GET STARTED
-                </Button>
-                <TrailerButton
-                    className='btns'
+                </Buttons>
+                <TrailerButtons
+                    className='btn'
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'
                 >
                     WATCH TRAILER <i className='far fa-play-circle'/>
-                </TrailerButton>
+                </TrailerButtons>
             </div>
         </div>
     );

@@ -1,15 +1,13 @@
 import React from 'react';
 import '../../App.css';
 import '../trailer.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import {Container} from 'react-bootstrap'
 import YouTube from "react-youtube";
 
 
 export default function Trailer() {
     const videoOptions = {
-        height: '980',
-        width: '1920',
+        height: '983',
+        width: '2133',
         playerVars: {
             autoplay: 1,
             controls: 1,
@@ -21,11 +19,9 @@ export default function Trailer() {
     };
     return (
         <div>
-        <Container>
             <div className="player-wrapper">
                 <YouTube videoId="aiGHMWduSo4" opts={videoOptions} />
             </div>
-        </Container>
     </div>
     );
 }
